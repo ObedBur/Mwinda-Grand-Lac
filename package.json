@@ -8,7 +8,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist --repo https://github.com/ObedBur/Web_Mwinda-Grand-Lac.git"
+  "deploy": "gh-pages -d dist --repo https://github.com/ObedBur/Mwinda-Grand-Lac.git"
 },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

@@ -1,3 +1,8 @@
+# pnpm-workspace.yaml
+
+packages:
+  - '.'
+
 ignoredBuiltDependencies:
   - esbuild
   - sharp

@@ -31,35 +31,35 @@ const cleaningServices: ServiceCategory = {
       description:
         'Ménage professionnel pour maisons. Personnel expérimenté et de confiance.',
       icon: Home,
-      image: '/nettoyage-residentiel.jpg',
+      image: './nettoyage-residentiel.jpg',
     },
     {
       title: 'Repassage Professionnel',
       description:
         'Service soigné à domicile. Formules abonnement mensuel ou journalier.',
       icon: Shirt,
-      image: '/repassage-professionnel.jpg',
+      image: './repassage-professionnel.jpg',
     },
     {
       title: 'Fin de Chantier',
       description:
         'Remise en état après travaux. Élimination des débris et poussières.',
       icon: HardHat,
-      image: '/fin-de-chantier.jpg',
+      image: './fin-de-chantier.jpg',
     },
     {
       title: 'Nettoyage Commercial',
       description:
         'Bureaux, magasins, écoles, hôpitaux et salles de fête.',
       icon: Building2,
-      image: '/nettoyage-commercial.jpg',
+      image: './nettoyage-commercial.jpg',
     },
     {
       title: 'Nettoyage Profond',
       description:
         'Shampouinage canapés, matelas, tapis et nettoyage automobile.',
       icon: Sparkles,
-      image: '/nettoyage-profond.jpg',
+      image: './nettoyage-profond.jpg',
     },
   ],
 };
@@ -77,31 +77,31 @@ const digitalServices: ServiceCategory = {
       title: 'Création Web', 
       description: 'Sites vitrines, E-commerce, WordPress, PrestaShop, applications web sur mesure.', 
       icon: Globe,
-      image: '/creation-web.jpg'
+      image: './creation-web.jpg'
     },
     { 
       title: 'Marketing Digital', 
       description: 'Stratégie digitale complète, campagnes publicitaires et Social Ads performants.', 
       icon: Megaphone,
-      image: '/marketing-digital.jpg'
+      image: './marketing-digital.jpg'
     },
     { 
       title: 'SEO',
       description: 'Optimisation pour moteurs de recherche, SEO/SEA et amélioration du référencement naturel.', 
       icon: Settings,
-      image: '/maintenance-branding.jpg'
+      image: './maintenance-branding.jpg'
     },
     { 
       title: 'Gestion de Réseaux Sociaux',
       description: 'Community management, création de contenu et animation de vos réseaux sociaux.',
       icon: Smartphone,
-      image: '/apps-crm.jpg'
+      image: './apps-crm.jpg'
     },
     {
       title: 'Média "Digital Media News"',
       description: 'Média en ligne : Reportages, publicités, relations presse et couverture événementielle.', 
       icon: Newspaper,
-      image: '/media-en-ligne.jpg'
+      image: './media-en-ligne.jpg'
     },
   ]
 };

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Montserrat', sans-serif;
+  --color-mwinda-green: #10b981;
+  --color-mwinda-dark-green: #047857;
+  --color-mwinda-orange: #f97316;
+  --color-mwinda-dark-orange: #c2410c;
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

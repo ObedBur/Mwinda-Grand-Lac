@@ -2,14 +2,13 @@
   "name": "copy-of-mwinda-grands-lacs",
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist --repo https://github.com/ObedBur/Mwinda-Grand-Lac.git"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --repo https://github.com/ObedBur/Mwinda-Grand-Lac.git"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "gsap": "^3.13.0",
@@ -18,10 +17,14 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.22",
     "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
     "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.17",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
     "vite-plugin-compression": "^0.5.1"

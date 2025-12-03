@@ -1,12 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-sans: 'Montserrat', sans-serif;
-  --color-mwinda-green: #10b981;
-  --color-mwinda-dark-green: #047857;
-  --color-mwinda-orange: #f97316;
-  --color-mwinda-dark-orange: #c2410c;
-}
 
 /* Custom scrollbar for webkit */
 ::-webkit-scrollbar {
